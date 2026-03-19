@@ -11,6 +11,12 @@ This project analyzes the behavior of leveraged ETFs (SPXL / SPXS) and proposes 
 - Internal replication of leveraged exposure
 - Performance and risk comparison against SPXL / SPXS
 
+## Key Insights
+- Leveraged ETF performance strongly depends on the path of returns, not only on cumulative returns.
+- Volatility drag significantly erodes performance in high variance regimes, even when the underlying trend is favorable.
+- Simple variance-based replication captures part of the dynamics but fails to fully reproduce real ETF behavior due to rebalancing effects and transaction costs.
+- Tracking error increases during volatile periods, highlighting the limitations of static replication approaches.
+
 ## Implementation
 - Python
 - Time series analysis
